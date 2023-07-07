@@ -30,7 +30,7 @@
   function generatePassword(length, includeUppercase, includeNumeric, includeLowercase, includeSpecial) {
     var characters = "";
     var password = "";
-// 
+    
     if (includeLowercase) {
       characters += "abcdefghijklmnopqrstuvwxyz";
     }
